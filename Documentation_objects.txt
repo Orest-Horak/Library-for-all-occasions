@@ -1,0 +1,38 @@
+ObjectsLibrary::List_1<Type> <name_list_1> creates an empty list_1 of type <Type>
+push_back(T _data) adds a node_1 with _data after tail
+push_neck(T _data) adds a node_1 with _data before head
+pop_back() removes tail
+pop_neck() removes head
+push(int position, T _data) adds a node_1 with _data at position
+pop(int position) removes a node_1 at position
+push_list(const List_1<T>& object) adds to the list elements of object
+reverse() reverses the values of list
+sort() sorts the values of list
+find(T _data) return the position of node_1 in list with _data
+
+ObjectsLibrary::List_2<Type>  <name_list_2> creates an empty list_2 of type <Type>
+push_back(T _data) adds a node_2 with _data after tail
+push_neck(T _data) adds a node_2 with _data before head
+pop_back() removes tail
+pop_neck() removes head
+push(int position, T _data) adds a node_2 with _data at position
+pop(int position) removes a node_2 at position
+push_list(const List_2<T>& object) adds to the list elements of object
+reverse() reverses the values of list
+sort() sorts the values of list
+find(T _data) returns the position of node_2 in list with _data
+
+ObjectsLibrary::Stack<Type> <name_stack> creates an empty stack of type <Type>
+push(T _data) adds an element with _data
+pop() removes an element at top
+find(T _data) returns the number of addition
+push_stack(const Stack<T>& object) adds to the stack elements of object
+reverse() reverses the values of stack
+hujnya() ~ print()
+
+ObjectsLibrary::Queue<Type> <name_queue> creates an empty queue of type <Type>
+push(T _data) adds an element with _data
+pop() removes an element at tail
+find(T _data) returns the position of queue_element with _data
+push_queue(const Queue<T>& object) adds to the queue elements of object
+reverse() reverses the values of queue
