@@ -1,3 +1,15 @@
+ObjectsLibrary::Array<Type> <name_list_1>(int size) creates an empty list_1 of type <Type> and of size (size)
+push_back(T _data) adds an element with _data after tail
+push_neck(T _data) adds an element with _data before head
+pop_back() removes tail
+pop_neck() removes head
+push(int position, T _data) adds an element with _data at position
+pop(int position) removes an element at position
+push_list(const Array<T>& object) adds to the array elements of object
+reverse() reverses the values of array
+sort() sorts the values of array
+find(T _data) return the position of element in array with _data
+
 ObjectsLibrary::List_1<Type> <name_list_1> creates an empty list_1 of type <Type>
 push_back(T _data) adds a node_1 with _data after tail
 push_neck(T _data) adds a node_1 with _data before head
